@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Udemy Course Projects</string>
+    // string used in main activity
+    <string name="text_view_title">Udemy Projects</string>
+    <string name="image_description">Banner Image</string>
+    <string name="button_1_desc">Dice App</string>
+    <string name="button_2_desc">Color Changing Text</string>
+    // Button to switch activity from Main to Dice Activity
+
+    // String used in dice Activity
+    <string name="text_view_dice_activity">Dice Activity</string>
+    <string name="button_name">Roll</string>
+
+    // string used in Color changing Text Activity
+    <string name="text_view_changing_color_activity">Hello World</string>
+    <string name="text_view_changing_color_activity_desc">Hello World</string>
+    <string name="button_name_color_changing_ac">Change Color</string>
+    <string name="heading_desc">Text Color Changing Activity</string>
+
+    // String used in Composing mail Activity
+    <string name="text_view_composing_mail">Composing Mail</string>
+    <string name="text_view_to">To</string>
+    <string name="text_view_subject">Subject</string>
+    <string name="text_view_message">Message</string>
+    <string name="send_btn_desc">Send Button</string>
+</resources>
