@@ -9,16 +9,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/heading_desc"
-        android:contentDescription="@string/heading_desc"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:fontFamily="cursive"
-        android:textColor="@color/black"
         android:layout_marginTop="100dp"
+        android:background="@color/background_color"
+        android:contentDescription="@string/heading_desc"
+        android:fontFamily="cursive"
         android:padding="8dp"
-        android:background="@color/background_color"/>
+        android:text="@string/heading_desc"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView_changing_color"
@@ -36,7 +36,7 @@
         android:id="@+id/color_changing_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_name_color_changing_ac"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"/>
+        android:layout_marginTop="400dp"
+        android:text="@string/button_name_color_changing_ac" />
 </RelativeLayout>

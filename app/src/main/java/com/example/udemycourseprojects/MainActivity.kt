@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity() {
             val Intent = Intent(this, ComposingMailConstraint::class.java)
             startActivity(Intent)
         }
+
+        val calculatorBtn = findViewById<Button>(R.id.calculator_btn)
+        calculatorBtn.setOnClickListener() {
+            val Intent = Intent(this, CalculatorActivity::class.java)
+            startActivity(Intent)
+        }
     }
 
 

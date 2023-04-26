@@ -5,6 +5,7 @@
     <string name="image_description">Banner Image</string>
     <string name="button_1_desc">Dice App</string>
     <string name="button_2_desc">Color Changing Text</string>
+    <string name="button_4_desc">Calculator</string>
     // Button to switch activity from Main to Dice Activity
 
     // String used in dice Activity
@@ -23,4 +24,28 @@
     <string name="text_view_subject">Subject</string>
     <string name="text_view_message">Message</string>
     <string name="send_btn_desc">Send Button</string>
+
+    // String Used In the Calculator Application
+    <!---Numbers -->
+    <string name="btn_zero">0</string>
+    <string name="btn_one">1</string>
+    <string name="btn_two">2</string>
+    <string name="btn_three">3</string>
+    <string name="btn_four">4</string>
+    <string name="btn_five">5</string>
+    <string name="btn_six">6</string>
+    <string name="btn_seven">7</string>
+    <string name="btn_eight">8</string>
+    <string name="btn_nine">9</string>
+
+    <!--- Operators -->
+    <string name="btn_dot">.</string>
+    <string name="btn_sum">+</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_multiply">*</string>
+    <string name="btn_divide">/</string>
+    <string name="btn_equal">=</string>
+    <string name="btn_clear">c</string>
+    <string name="btn_modulous">%</string>
+    <string name="title_activity_composing_mail_compose">ComposingMailComposeActivity</string>
 </resources>

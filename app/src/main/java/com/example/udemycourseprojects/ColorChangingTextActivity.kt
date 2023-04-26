@@ -15,7 +15,7 @@ class ColorChangingTextActivity : AppCompatActivity() {
         val txt = findViewById<TextView>(R.id.textView_changing_color)
         changeTextColor.setOnClickListener() {
             val randomColor = Random().nextInt(6) + 1
-            val Colour = when(randomColor) {
+            val Colour = when (randomColor) {
                 1 -> R.color.forest_green
                 2 -> R.color.midnight_blue
                 3 -> R.color.kashmir_green
