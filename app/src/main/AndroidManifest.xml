@@ -12,6 +12,11 @@
         android:theme="@style/Theme.UdemyCourseProjects"
         tools:targetApi="31">
         <activity
+            android:name=".ComposingMail"
+            android:exported="false"
+            android:label="@string/title_activity_composing_mail"
+            android:theme="@style/Theme.UdemyCourseProjects" />
+        <activity
             android:name=".ComposingMailComposeActivity"
             android:exported="false"
             android:label="@string/title_activity_composing_mail_compose"

@@ -48,4 +48,5 @@
     <string name="btn_clear">c</string>
     <string name="btn_modulous">%</string>
     <string name="title_activity_composing_mail_compose">ComposingMailComposeActivity</string>
+    <string name="title_activity_composing_mail">ComposingMail</string>
 </resources>
