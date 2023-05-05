@@ -6,6 +6,8 @@
     <string name="button_1_desc">Dice App</string>
     <string name="button_2_desc">Color Changing Text</string>
     <string name="button_4_desc">Calculator</string>
+    <string name="button_5_desc">List Using Recyclerview</string>
+    <string name="button_6_desc">Multi Type Recycler View</string>
     // Button to switch activity from Main to Dice Activity
 
     // String used in dice Activity

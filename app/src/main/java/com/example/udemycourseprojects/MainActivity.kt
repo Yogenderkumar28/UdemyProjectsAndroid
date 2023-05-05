@@ -34,6 +34,18 @@ class MainActivity : AppCompatActivity() {
             val Intent = Intent(this, CalculatorActivity::class.java)
             startActivity(Intent)
         }
+
+        val recyclerviewBtn = findViewById<Button>(R.id.recyclerview_btn)
+        recyclerviewBtn.setOnClickListener {
+            val intent = Intent(this, RecyclerViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        val multiTypeRecyclerViewBtn = findViewById<Button>(R.id.multiType_recylcer_view)
+        multiTypeRecyclerViewBtn.setOnClickListener {
+            val intent = Intent(this, RecyclerviewMultiTypeExample::class.java)
+            startActivity(intent)
+        }
     }
 
 
